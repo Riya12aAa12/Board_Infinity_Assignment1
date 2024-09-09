@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+# Task Management Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Task Management Board built with React, designed to help you manage tasks with ease. It allows you to create, update, and track tasks across different statuses (TODO, IN PROGRESS, COMPLETED) with a user-friendly interface. The tasks are saved in local storage, ensuring that your data persists even after refreshing the page.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Create Tasks**: Easily add new tasks with title, description, priority, and date.
+- **Status Management**: Move tasks between TODO, IN PROGRESS, and COMPLETED columns.
+- **Local Storage**: Saves tasks to local storage to persist data across page refreshes.
+- **Responsive Design**: User-friendly interface that works on both desktop and mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: For building the user interface.
+- **TypeScript**: For type safety and better development experience.
+- **CSS**: For styling the application.
+- **Font Awesome**: For icons used in the task items.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To set up this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/task-management-board.git
+Navigate to the project directory:
 
-### `npm run build`
+bash
+Copy code
+cd task-management-board
+Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm install
+Run the project:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+npm start
+The application will be running on http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Usage
+Creating a Task:
 
-### `npm run eject`
+Click on the "Create Task" button.
+Fill in the task details such as title, description, priority, and date.
+Click "Add Task" to save the task.
+Changing Task Status:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Click on the dropdown icon next to a task title.
+Select the desired status (TODO, IN PROGRESS, COMPLETED).
+View Tasks by Status:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tasks are organized into three columns: TODO, IN PROGRESS, and COMPLETED.
+Project Structure
+src/: Contains the main source code of the application.
+components/: Contains React components such as TaskBoard and TaskModal.
+types/: Defines TypeScript types used throughout the project.
+TaskBoard.tsx: The main component that displays the task board and manages tasks.
+Contributing
+If you would like to contribute to this project, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes and commit them (git commit -m 'Add some feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contact
+For any questions or feedback, feel free to contact the project owner at your-email@example.com.
 
-## Learn More
+python
+Copy code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Customization:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Replace `" https://github.com/Riya12aAa12/Board_Infinity_Frontend.git
+"` with the actual repository URL.
+- Update the contact email and any other details to match your specifics.
+
+This README provides a clear overview of the project, installation steps, and usage instructions, making 
