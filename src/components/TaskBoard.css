@@ -1,0 +1,180 @@
+.task-board {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.application-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+ 
+ 
+}
+
+.app-info {
+  font-size: 18px;
+}
+
+.button-group {
+  display: flex;
+}
+
+.task-details {
+  margin-top: 10px;
+}
+
+.task-details p {
+  margin: 5px 0;
+}
+
+/* .task-form textarea {
+  width: 30%;
+  height: 20px;
+  border:2px solid purple;
+} */
+
+.create-task-button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.task-columns {
+  display: flex;
+  justify-content: center; /* Center the columns */
+  gap: 10px; /* Gap between the columns */
+  padding: 0 20px;
+  margin:0px; /* Add padding on the left and right */
+}
+
+.task-column {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  width: 20%; /* Adjust the width as needed */
+}
+.task-item {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Centering the task items */
+  text-align: center;
+  height:100px;
+}
+
+.task-priority {
+  color:red;
+  padding-right:215px;
+  
+  height:12px;
+  
+  
+}
+.first{
+  padding-right:199px;
+  font-size:15px;
+}
+.fas fa-calendar-day{
+  color:white;
+  padding-right:180px;
+
+}
+.third{
+  padding-right:150px;
+  gap:2px;
+  color:gray;
+  
+}
+.second{
+  padding-right:230px;
+  width:100%;
+}
+.app-info{
+  padding-left:280px;
+}
+.button-group{
+  padding-right:280px;
+}
+.caret1{
+  cursor: pointer;
+  
+  padding-left:200px;
+}
+
+.column-header1{
+  background-color:purple;
+  width:60%;
+  padding-left:130px;
+  color:white;
+  border-radius: 8%;
+}
+.column-header2{
+  background-color:yellow;
+  width:75%;
+  padding-left:90px;
+  border-radius: 8%;
+}
+.column-header3{
+  background-color:green;
+  width:75%;
+  padding-left:90px;
+  border-radius: 8%;
+  color:white;
+}
+priority-low {
+  background-color: #4caf50; /* Green */
+  color: #fff; /* White text */
+}
+.priority-medium {
+  background-color: #e91e63; /* Pink */
+  color: #fff; /* White text */
+}
+.caret {
+  cursor: pointer;
+  margin-left: 10px;
+  padding-left:170px;
+}
+
+.dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  padding: 5px;
+  z-index: 100;
+}
+
+.dropdown button {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown button:hover {
+  background-color: #f0f0f0;
+}

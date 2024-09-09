@@ -1,0 +1,140 @@
+/* Modal styles */
+.modal {
+  width: 600px; /* Adjust width as needed */
+  max-width: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  position: relative;
+  margin: 0 auto;
+  top: 20%;
+  transform: translateY(-20%);
+}
+
+/* Overlay styles */
+.overlay {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header styles */
+.modal-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.create-task-header {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+/* Plus icon styles */
+.plus-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Close button styles */
+.close-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Content styles */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+/* Asterisk for required fields */
+.required-asterisk {
+  color: red;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* Input and textarea styles */
+.modal-input, .modal-textarea, .modal-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-textarea {
+  height: 100px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-task {
+  background-color: purple;
+  color: white;
+ 
+}
+
+.cancel {
+  background-color: #f0f0f0;
+}
+
+.close {
+  background-color: #f0f0f0;
+}
+
+/* Task details styles */
+.task-details {
+  text-align: left;
+}
+
+.task-detail-item {
+  margin-bottom: 10px;
+}
+
+.priority-label {
+  color: purple;
+}
