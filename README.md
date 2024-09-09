@@ -26,17 +26,17 @@ To set up this project locally, follow these steps:
 Navigate to the project directory:
 
 bash
-Copy code
+
 cd task-management-board
 Install dependencies:
 
 bash
-Copy code
+
 npm install
 Run the project:
 
 bash
-Copy code
+
 npm start
 The application will be running on http://localhost:3000.
 
@@ -70,10 +70,9 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any questions or feedback, feel free to contact the project owner at your-email@example.com.
 
-python
-Copy code
+
+
 
 ### Customization:
 
